@@ -128,25 +128,6 @@ section:nth-of-type(4) { animation-delay: 0.3s; }
 .p4 { bottom: 8%;  right: 8%; animation-delay: 1.8s; font-size: 1.4rem; }
 .p5 { top: 45%; right: 2%; animation-delay: 0.9s;  font-size: 1.2rem; }
 
-/* image collage */
-.summary-images {
-  position: relative;
-  flex-shrink: 0;
-  width: 165px;
-  height: 200px;
-}
-.sum-img-main {
-  width: 160px;
-  height: 195px;
-  border-radius: 20px;
-  overflow: hidden;
-  border: 4px solid #fff;
-  box-shadow: 0 8px 28px rgba(201,69,99,0.22);
-  animation: popIn 0.7s ease both, pulse-ring 2.5s ease-out 1s infinite;
-}
-.sum-img-main img { width: 100%; height: 100%; object-fit: cover; }
-
-
 /* text side */
 .summary-body { flex: 1; min-width: 240px; }
 
@@ -212,7 +193,6 @@ section:nth-of-type(4) { animation-delay: 0.3s; }
 @media (max-width: 640px) {
   .summary-wrap { flex-direction: column; align-items: center; text-align: center; padding: 2rem 1.2rem; }
   .summary-badges { justify-content: center; }
-  .summary-images { margin-bottom: 1rem; }
 }
 
 /* ── Skills ── */
